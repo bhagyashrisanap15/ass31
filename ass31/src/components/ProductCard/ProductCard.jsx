@@ -8,6 +8,7 @@ function ProductCard({ product }) {
         src={product.images}
         className="product-img"
         alt={product.title}
+        
       />
 
       <h1 className="product-title">{product.title}</h1>
