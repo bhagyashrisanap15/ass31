@@ -1,0 +1,27 @@
+/* Navbar container */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #333;
+  padding: 15px;
+}
+
+/* Nav links */
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.nav a:hover {
+  color: #ff9800;
+}
+
+/* Active link style (optional) */
+.nav a.active {
+  border-bottom: 2px solid #ff9800;
+}
